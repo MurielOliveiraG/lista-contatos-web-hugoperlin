@@ -56,7 +56,7 @@ public class JDBCTarefaDAO implements TarefaDAO {
                 tarefas.add(tarefa);
             }
             con.close();
-            return Resultado.sucesso("Contatos carregados", tarefas);
+            return Resultado.sucesso("Tarefa carregada", tarefas);
         } catch (SQLException e) {
             return Resultado.erro(e.getMessage());
         }
