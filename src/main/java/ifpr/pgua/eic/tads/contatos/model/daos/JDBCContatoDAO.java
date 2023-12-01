@@ -22,7 +22,6 @@ public class JDBCContatoDAO implements ContatoDAO {
 
     @Override
     public Resultado<Contato> criar(Contato contato) {
-
         try {
             Connection con = fabricaConexao.getConnection();
 

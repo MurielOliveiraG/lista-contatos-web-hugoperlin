@@ -37,6 +37,4 @@ public class ListController {
         html+="</ul><a href=\"/\">Voltar</a></body></html>";
         ctx.html(html);
     };
-
-
 }
